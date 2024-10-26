@@ -28,14 +28,14 @@ const anotherid = Symbol("123");
 const bigNumber = 351584558455n;
 // console.log(bigNumber);
 
-console.log(typeof score); // number
-console.log(typeof scorValue); // number
-console.log(typeof Name); // string
-console.log(typeof isLoggedIn); // boolean
-console.log(typeof outsideTemp); // object
-console.log(typeof userEmail); // undefined
-console.log(typeof id); // symbol
-console.log(typeof bigNumber); // function
+// console.log(typeof score); // number
+// console.log(typeof scorValue); // number
+// console.log(typeof Name); // string
+// console.log(typeof isLoggedIn); // boolean
+// console.log(typeof outsideTemp); // object
+// console.log(typeof userEmail); // undefined
+// console.log(typeof id); // symbol
+// console.log(typeof bigNumber); // function
 
 
 
@@ -55,7 +55,31 @@ const myfucntion = function() { // function
     console.log("Hello World")
 }
 
-console.log(typeof animC); // object
-console.log(typeof obj); // object
-console.log(typeof myfucntion); // function
+// console.log(typeof animC); // object
+// console.log(typeof obj); // object
+// console.log(typeof myfucntion); // function
+
+// -*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-**
+// memory allocation
+// stack (primitive), heap (non primitive)
+
+// stack 
+let myYoutubeName = "abcd.com"
+let anothername = "csd.com"
+
+// console.log(myYoutubeName);
+// console.log(anothername);
+
+// heap
+let user1 = {
+    emailId: "asdf@gmail.com",
+    upi: "asdf@"
+}
+
+let user2 = user1;
+user2.emailId = "csdf@gmail.com";
+
+// console.log(user1.emailId);
+// console.log(user2.emailId);
+
 
