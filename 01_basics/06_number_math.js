@@ -22,6 +22,12 @@ const salary = 1000000
 // console.log(Math.min(4, 8, 4,2,1,0,8));
 // console.log(Math.max(4, 8, 4,2,1,0,8));
 
-console.log(Math.round(Math.random() * 6)); // range: 0 - 1
+// console.log(Math.floor(Math.random() * 6) + 1); // range: 0 - 1
+
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random() * (max - min + 1) + min));
+
 
 
