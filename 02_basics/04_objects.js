@@ -62,3 +62,4 @@ const course = {
 const {courseInstructor: instructor} = course // object destructure
 console.log(instructor);
 
+// https://jsonformatter.org/
