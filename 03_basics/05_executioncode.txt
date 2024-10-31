@@ -1,0 +1,22 @@
++ JS creates Global Execution Context
+JavaScript first creates a global execution context when the script starts running. This context is essential for managing the execution of code at the global level.
+
++ Memory Creation Phase
+During this phase, JavaScript allocates memory for variables and functions.
+    + Variables: Initially set to undefined. This is also known as 'hoisting,' where variable declarations are moved to the top of their scope.
+    + Functions: Set to their definitions. Function declarations are also hoisted, but unlike variables, they are hoisted with their complete definitions, making them accessible throughout their scope.
+
++ Execution Phase
+In this phase, JavaScript executes the code line by line.
+    + Variable Assignment: Variables are assigned their given values during this phase, replacing the initial undefined.
+    + Function Calls: When functions are called, they create their own execution context, which involves both a memory creation phase and an execution phase, similar to the global execution context.
+        + Local Execution Context: Each function call creates a new local execution context. This local context has its own memory creation and execution phases, independent of the global context.
+        + Call Stack: The call stack manages these contexts, ensuring that each function's execution context is handled in a last-in-first-out (LIFO) manner. When a function finishes executing, its context is removed from the stack.
+
+For Live Demo
+You can experience this process in action:
+
+1. Open your browser and go to Developer Tools (F12 or Ctrl+Shift+I).
+2. Navigate to the Sources tab.
+3. Create a new snippet and add a few functions.
+4. Set breakpoints and step through the code to visually experience the call stack and context creation.
