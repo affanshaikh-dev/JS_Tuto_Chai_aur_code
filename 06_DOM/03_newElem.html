@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <script>
+
+        const div = document.createElement("div")
+        console.log(div);
+        div.className = 'main'
+        div.id = Math.floor(Math.random() * 10 + 1)
+        div.setAttribute("title", "chai aur code")
+        // div.innerText = "Hello World!"
+        const addDiv = document.createTextNode("Chai Aur Code")
+        div.appendChild(addDiv)
+
+        document.body.appendChild(div)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!-- DOM - Data Object Model -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading" class="heading">DOM learning on Chai Aur Code</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam ipsam doloremque consequuntur assumenda
+            saepe rem.</p>
+        <ul>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+        </ul>
+    </div>
+
+    <script>
+        // to get an elements from web page 
+        // document.getElementsById(".class") - its get id from the given html code
+        // document.getElementsByClassName(".class") - its get class from the given html code
+        // document.querySelector("") - any type of attributes are get in this selector
+        // document.querySelectorAll("") - any type of attributes are get in this selector and its give nodelist which similar to array but not an array   
+
+        // example for selection of element and there manupulation 
+
+        // const heading = document.getElementsByClassName("heading")
+        // heading[0].style.backgroundColor = "red"
+
+        // const heading = document.getElementById("heading")
+        // heading.style.backgroundColor = "red"
+
+        // const list = document.querySelector("li")
+        // list.style.backgroundColor = "red"
+        
+        // const list = document.querySelectorAll("li")
+        // list.forEach(li => {
+        //     li.style.backgroundColor = "red"
+        // })
+
+    </script>
+</body>
+
+</html>
