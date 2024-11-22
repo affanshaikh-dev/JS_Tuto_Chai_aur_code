@@ -104,4 +104,4 @@ fetch('https://api.github.com/users/affanshaikh-dev').then((response) => {
     console.log(data)
 }).catch((error) => {
     console.log(error)
-})
+});
