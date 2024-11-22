@@ -17,7 +17,7 @@ Object literal
 - Instances (New, this)
 
 ## 4 Pillars
-- Abstraction
+- *Abstraction*:
         Abstraction is the concept of hiding the complex implementation details and showing only the essential features of the object.
 - Encapsulation 
         Encapsulation is the concept of bundling the data (variables) and methods (functions) that operate on the data into a single unit, or class.
