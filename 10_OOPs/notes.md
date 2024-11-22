@@ -17,11 +17,11 @@ Object literal
 - Instances (New, this)
 
 ## 4 Pillars
-- *Abstraction*:
+- **Abstraction**:
         Abstraction is the concept of hiding the complex implementation details and showing only the essential features of the object.
-- Encapsulation 
+- **Encapsulation**: 
         Encapsulation is the concept of bundling the data (variables) and methods (functions) that operate on the data into a single unit, or class.
-- Inheritance
+- **Inheritance**:
         Inheritance is a mechanism where one class (child class) inherits the properties and methods of another class (parent class).
-- Polymorphism
+- **Polymorphism**:
         Polymorphism means "many forms" and it occurs when a parent class reference is used to refer to a child class object.
