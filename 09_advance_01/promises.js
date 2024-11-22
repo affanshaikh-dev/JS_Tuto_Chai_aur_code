@@ -98,10 +98,10 @@
 
 // getAllUser()
 
-fetch('https://api.github.com/users/affanshaikh-dev').then((response) => {
-    return response.json()
-}).then((data) => {
-    console.log(data)
-}).catch((error) => {
-    console.log(error)
-})
+// fetch('https://api.github.com/users/affanshaikh-dev').then((response) => {
+//     return response.json()
+// }).then((data) => {
+//     console.log(data)
+// }).catch((error) => {
+//     console.log(error)
+// })
