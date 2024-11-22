@@ -7,7 +7,7 @@
 - toLowerCase
 
 ## why use OOP
-
+OOP provides modularity, reusability, encapsulation, abstraction, and polymorphism, making code easier to manage, extend, and debug. It simplifies complex problems by modeling them with real-world objects.
 
 ## part of OOP
 Object literal
